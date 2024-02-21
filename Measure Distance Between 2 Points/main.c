@@ -41,7 +41,7 @@ start:
 
 void clearDisplay()
 {
-#ifdef __linux
+#ifdef __unix__
 	system("clear");
 #elif _WIN32
 	system("cls");
